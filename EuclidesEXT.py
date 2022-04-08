@@ -4,7 +4,7 @@ def EuclidesEXT(n,m):
         return m,x0,y0
     while m!=0:
         q=n//m
-        r=n-m*q
+        r=n%m
         x=x0-q*x1
         y=y0-q*y1
         n=m
