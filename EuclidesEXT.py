@@ -7,10 +7,8 @@ def EuclidesEXT(n,m):
         r=n-m*q
         x=x0-q*x1
         y=y0-q*y1
-        #Update a,b
         n=m
         m=r
-        #Update for next iteration
         x0=x1
         x1=x
         y0=y1
