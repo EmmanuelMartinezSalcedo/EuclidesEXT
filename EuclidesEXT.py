@@ -13,6 +13,7 @@ def Diofantica(n,m,o,p):
         x1=(x0*d2)-(m/d)*i
         y1=(y0*d2)-(n/d)*i
         print("x1=",x1,",","y1=",y1)
+print("Ingrese a,b")
 a=int(input())
 b=int(input())
 print("(MCD, X, Y)")
